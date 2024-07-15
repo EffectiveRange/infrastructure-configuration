@@ -1,0 +1,46 @@
+[
+  {
+    "owner": "EffectiveRange",
+    "repo": "apt-server"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "debian-package-collector"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "debian-package-downloader"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "debian-package-installer"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "drv-bq25622"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "drv-rx8130ce"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "header-adder"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "pic18-q20-programmer"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "python-context-logger"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "python-systemd-dbus"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "wifi-manager"
+  }
+]
