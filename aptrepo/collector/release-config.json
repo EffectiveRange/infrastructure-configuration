@@ -17,6 +17,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "drv-battery"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "drv-bq25622"
   },
   {
