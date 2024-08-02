@@ -25,6 +25,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "drv-mrhat"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "drv-rx8130ce"
   },
   {
@@ -42,6 +46,10 @@
   {
     "owner": "EffectiveRange",
     "repo": "python-systemd-dbus"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "raspbian-image-generator"
   },
   {
     "owner": "EffectiveRange",
