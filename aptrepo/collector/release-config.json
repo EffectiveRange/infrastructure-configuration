@@ -25,6 +25,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "drv-micdevice"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "drv-mrhat"
   },
   {
@@ -37,11 +41,19 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "mrhat-daemon"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "mrhat-rtcwake"
   },
   {
     "owner": "EffectiveRange",
     "repo": "pic18-q20-programmer"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "python-common-utility"
   },
   {
     "owner": "EffectiveRange",
