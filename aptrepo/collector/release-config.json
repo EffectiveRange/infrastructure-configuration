@@ -37,6 +37,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "fw-mrhat-pkg"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "header-adder"
   },
   {
