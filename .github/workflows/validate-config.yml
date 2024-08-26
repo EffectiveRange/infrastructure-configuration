@@ -1,0 +1,21 @@
+name: Validate Configuration
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: pip install check-jsonschema
+
+      - name: Validate JSON
+        run: |
+          cd aptrepo/collector
+          check-jsonschema --schemafile schema/release-config.schema.json config/release-config.json
