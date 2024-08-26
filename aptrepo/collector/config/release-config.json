@@ -57,6 +57,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "packaging-tools"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "pic18-q20-programmer"
   },
   {
