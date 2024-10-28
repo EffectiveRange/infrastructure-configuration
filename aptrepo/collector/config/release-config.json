@@ -82,5 +82,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "wifi-manager"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "pkg-tflite-micro"
   }
 ]
