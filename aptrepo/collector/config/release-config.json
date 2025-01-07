@@ -90,5 +90,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "recog" 
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-stationd" 
   }
 ]
