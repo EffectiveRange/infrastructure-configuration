@@ -37,6 +37,11 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-stationd",
+    "matcher": "*.*deb"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "fw-mrhat-pkg"
   },
   {
@@ -65,6 +70,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "pkg-tflite-micro"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "python-common-utility"
   },
   {
@@ -81,18 +90,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "recog"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "wifi-manager"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "pkg-tflite-micro"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "recog" 
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-stationd" 
   }
 ]
