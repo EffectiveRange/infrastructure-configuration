@@ -37,6 +37,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "effective-range-server"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "er-stationd",
     "matcher": "*.*deb"
   },
