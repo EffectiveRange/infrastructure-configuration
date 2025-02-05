@@ -41,6 +41,11 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-network-monitor",
+    "matcher": "*.*deb"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "er-stationd",
     "matcher": "*.*deb"
   },
