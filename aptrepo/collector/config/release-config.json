@@ -41,6 +41,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "elastic-beats-armhf-deb"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "er-network-monitor",
     "matcher": "*.*deb"
   },
