@@ -107,6 +107,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "stdeb"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "wifi-manager"
   }
 ]
