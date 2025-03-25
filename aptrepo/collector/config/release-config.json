@@ -5,6 +5,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-scripts"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "debian-package-collector"
   },
   {
