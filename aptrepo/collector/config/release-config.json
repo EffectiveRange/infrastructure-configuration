@@ -116,5 +116,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "wifi-manager"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-pulse"
   }
 ]
