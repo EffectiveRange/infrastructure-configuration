@@ -120,5 +120,17 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-pulse"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-stream"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-schedule"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-detect"
   }
 ]
