@@ -132,5 +132,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-detect"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-cannon"
   }
 ]
