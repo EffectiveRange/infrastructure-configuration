@@ -140,5 +140,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-server"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-sync"
   }
 ]
