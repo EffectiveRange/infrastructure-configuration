@@ -144,5 +144,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-sync"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-fake-stream"
   }
 ]
