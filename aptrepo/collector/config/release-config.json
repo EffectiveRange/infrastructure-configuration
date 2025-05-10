@@ -152,5 +152,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-frontend"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-upload"
   }
 ]
