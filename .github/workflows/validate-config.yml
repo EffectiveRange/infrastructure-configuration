@@ -1,8 +1,19 @@
 name: Validate configuration
 
 on:
+  push:
+    branches: [ main ]
+
   pull_request:
     branches: [ "main" ]
+    types:
+      - synchronize
+      - opened
+      - reopened
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.sha }}
+  cancel-in-progress: true
 
 jobs:
   validate-json:
