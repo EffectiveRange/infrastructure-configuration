@@ -24,7 +24,6 @@ fi
 source /etc/os-release
 
 REPO_URL="http://aptrepo.effective-range.com"
-
 COMPONENT="${@:-main}"
 SOURCES="/etc/apt/sources.list.d/effective-range.sources"
 KEY_FILE="/usr/share/keyrings/er-keyring.pgp"
