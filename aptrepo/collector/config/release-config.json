@@ -71,6 +71,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "libzmq"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "mrhat-daemon"
   },
   {
