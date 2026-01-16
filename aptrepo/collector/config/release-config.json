@@ -111,6 +111,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "pyzmq"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "raspbian-image-generator"
   },
   {
