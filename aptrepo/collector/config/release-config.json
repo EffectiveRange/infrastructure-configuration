@@ -179,6 +179,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-sniper-edge"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "er-scarecrow-upload"
   }
 ]
