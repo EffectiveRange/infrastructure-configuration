@@ -45,6 +45,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-hwinfo"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "effective-range-server"
   },
   {
