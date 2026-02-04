@@ -24,7 +24,7 @@ fi
 source /etc/os-release
 
 REPO_URL="http://aptrepo.effective-range.com"
-COMPONENT="${@:-main}"
+COMPONENTS="${@:-main}"
 SOURCES="/etc/apt/sources.list.d/effective-range.sources"
 KEY_FILE="/usr/share/keyrings/er-keyring.pgp"
 
@@ -33,7 +33,7 @@ cat > $SOURCES << EOF
 Types: deb
 URIs: $REPO_URL
 Suites: $VERSION_CODENAME
-Components: $COMPONENT
+Components: $COMPONENTS
 Signed-By: $KEY_FILE
 EOF
 echo "✅ Repository added successfully."

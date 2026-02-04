@@ -9,6 +9,21 @@
       },
       "repo": {
         "type": "string"
+      },
+      "matcher": {
+        "type": "string"
+      },
+      "component": {
+        "type": "string"
+      },
+      "private": {
+        "type": "boolean"
+      },
+      "tag": {
+        "type": "string"
+      },
+      "token": {
+        "type": "string"
       }
     },
     "required": ["owner", "repo"]
