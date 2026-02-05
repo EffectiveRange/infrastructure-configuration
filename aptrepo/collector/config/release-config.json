@@ -1,14 +1,6 @@
 [
   {
     "owner": "EffectiveRange",
-    "repo": "apt-server"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scripts"
-  },
-  {
-    "owner": "EffectiveRange",
     "repo": "debian-package-collector"
   },
   {
@@ -21,11 +13,19 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "debian-package-repository"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "drv-battery"
   },
   {
     "owner": "EffectiveRange",
     "repo": "drv-bq25622"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "drv-erhw"
   },
   {
     "owner": "EffectiveRange",
@@ -41,14 +41,6 @@
   },
   {
     "owner": "EffectiveRange",
-    "repo": "drv-erhw"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-hwinfo"
-  },
-  {
-    "owner": "EffectiveRange",
     "repo": "effective-range-server"
   },
   {
@@ -57,8 +49,60 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "er-fake-stream"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-hwinfo"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "er-network-monitor",
     "matcher": "*.*deb"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-pulse"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-cannon"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-detect"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-frontend"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-server"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-stream"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-sync"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-upload"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-schedule"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-sniper-edge"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scripts"
   },
   {
     "owner": "EffectiveRange",
@@ -144,49 +188,5 @@
   {
     "owner": "EffectiveRange",
     "repo": "wifi-manager"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-pulse"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-stream"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-schedule"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-detect"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-cannon"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-server"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-sync"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-fake-stream"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-frontend"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-sniper-edge"
-  },
-  {
-    "owner": "EffectiveRange",
-    "repo": "er-scarecrow-upload"
   }
 ]
