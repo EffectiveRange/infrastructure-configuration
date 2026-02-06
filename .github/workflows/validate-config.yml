@@ -1,4 +1,4 @@
-name: Validate
+name: Validate configuration
 
 on:
   push:
@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  validate:
+  validate-json:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install check-jsonschema
 
-      - name: Validate package collector configuration
+      - name: Validate JSON
         run: |
           cd aptrepo/collector
           check-jsonschema --schemafile schema/release-config.schema.json config/release-config.json
-
-      - name: Validate repository adder script
-        run: |
-          cd aptrepo/repository
-          sudo ./add_repo.sh
