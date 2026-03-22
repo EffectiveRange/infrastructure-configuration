@@ -23,23 +23,26 @@ function retry {
     set -e
 }
 
+APT_UPDATED=0
+
+check_executable() {
+    local exe="$1"
+    local pkg="${2:-$exe}"
+    if ! command -v "$exe" >/dev/null 2>&1; then
+        echo "⚠️ Executable '$exe' not found. Installing package '$pkg'..."
+        if [ $APT_UPDATED -eq 0 ]; then
+            apt-get update -y >/dev/null 2>&1
+            APT_UPDATED=1
+        fi
+        apt-get install -y --no-install-recommends "$pkg" >/dev/null 2>&1
+        command -v "$exe"
+        echo "✅ Package '$pkg' installed successfully."
+    fi
+}
+
 if [ "$(id -u)" -ne 0 ]; then
     echo "❌ This script must be run as root. Please use sudo."
     exit 1
-fi
-
-if ! command -v gpg >/dev/null 2>&1; then
-    echo "ℹ️ gpg not found. Installing gpg..."
-    retry apt-get update -y
-    retry apt-get install -y gpg
-    echo "✅ gpg installed successfully."
-fi
-
-if ! command -v curl >/dev/null 2>&1; then
-    echo "ℹ️ curl not found. Installing curl..."
-    retry apt-get update -y
-    retry apt-get install -y curl
-    echo "✅ curl installed successfully."
 fi
 
 source /etc/os-release
@@ -60,15 +63,23 @@ Signed-By: $KEY_FILE
 EOF
 echo "✅ Repository added successfully."
 
+echo
+
 echo "ℹ️ Importing repository public key $KEY_URL"
 mkdir -p /usr/share/keyrings
+check_executable curl
 retry curl -4 -fSL --connect-timeout 5 --max-time 20 --retry 4 --retry-all-errors --retry-delay 1 "$KEY_URL" -o $KEY_FILE
+check_executable gpg
 gpg --show-keys $KEY_FILE
 echo "✅ Public key imported successfully."
+
+echo
 
 echo "ℹ️ Updating package lists..."
 retry apt-get update -y
 echo "✅ Package lists updated."
+
+echo
 
 echo "✅ Done."
 exit 0
