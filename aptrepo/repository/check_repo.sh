@@ -18,6 +18,8 @@ check_executable() {
     fi
 }
 
+check_executable curl
+
 echo -n "ℹ️ Runner public IP: "
 curl -s https://api.ipify.org
 echo
