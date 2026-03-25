@@ -58,19 +58,19 @@ check_executable nc netcat-openbsd
 
 echo "ℹ️ Checking TCP connectivity to $REPO_HOST..."
 if ! nc -vz -w 5 "$REPO_IP" 80; then
-  echo "❌ TCP connectivity to $REPO_HOST ($REPO_IP) on port 80 failed" >&2
+  echo "❌ TCP connection to $REPO_HOST ($REPO_IP:80) failed" >&2
   exit 3
 else
-  echo "✅ TCP connectivity to $REPO_HOST ($REPO_IP) on port 80 is successful"
+  echo "✅ TCP connection to $REPO_HOST ($REPO_IP:80) is successful"
 fi
 
 echo
 
-check_executable wget
-
-KEY_URL="http://$REPO_HOST/effectiverange.gpg.key"
+KEY_URL="http://$REPO_HOST"
 echo "ℹ️ Checking HTTP connectivity to $KEY_URL..."
-if ! wget -nv --spider --timeout=10 --tries=2 "$KEY_URL"; then
+if ! curl -fsSL -o /dev/null \
+  -w "HTTP %{http_code} %{remote_ip}:%{remote_port} %{size_download}B %{url_effective}\n" \
+  --connect-timeout 10 --retry 2 "$KEY_URL"; then
   echo "❌ Failed to fetch $KEY_URL" >&2
   exit 4
 else
