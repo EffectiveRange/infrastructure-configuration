@@ -131,6 +131,10 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "mediamtx"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "mrhat-daemon"
   },
   {
