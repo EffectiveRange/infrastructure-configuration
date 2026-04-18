@@ -196,5 +196,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "wifi-manager"
-  }
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "fw-mrcm-pkg"
+  } 
 ]
