@@ -92,6 +92,10 @@
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-upload"
   },
+   {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-wifi"
+  },
   {
     "owner": "EffectiveRange",
     "repo": "er-schedule"
