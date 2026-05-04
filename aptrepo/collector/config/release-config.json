@@ -204,5 +204,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "fw-mrcm-pkg"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-video"
   } 
 ]
