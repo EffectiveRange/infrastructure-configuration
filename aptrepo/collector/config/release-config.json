@@ -208,5 +208,9 @@
   {
     "owner": "EffectiveRange",
     "repo": "er-scarecrow-video"
-  } 
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "er-scarecrow-models"
+  }  
 ]
