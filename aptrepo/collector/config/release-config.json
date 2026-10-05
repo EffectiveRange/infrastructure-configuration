@@ -163,11 +163,19 @@
   },
   {
     "owner": "EffectiveRange",
+    "repo": "python-blob-capture"
+  },
+  {
+    "owner": "EffectiveRange",
     "repo": "python-common-utility"
   },
   {
     "owner": "EffectiveRange",
     "repo": "python-context-logger"
+  },
+  {
+    "owner": "EffectiveRange",
+    "repo": "python-dynamic-config"
   },
   {
     "owner": "EffectiveRange",
